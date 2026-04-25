@@ -8,7 +8,7 @@ A fully automated cybersecurity home lab built on a Raspberry Pi 5 (8GB) running
 
 ## 📸 Dashboard Preview
 
-![Grafana Dashboard](Grafana.png)
+![Grafana Dashboard](screenshots/Granfana.png)
 
 ---
 
@@ -82,6 +82,7 @@ Automates hardening of a fresh Ubuntu install following CIS benchmark principles
 
 ### Phase 2 — Intrusion Detection System (Suricata)
 **Script:** `pi5_suricata_setup.sh`
+![Suricata Alerts](screenshots/suricata live.png)
 
 Deploys Suricata 7.x as a network IDS monitoring all traffic on the primary interface.
 
@@ -113,7 +114,7 @@ Classification: Potentially Bad Traffic | Priority: 2
 ### Phase 3 — SSH Honeypot (Cowrie)
 **Script:** `pi5_cowrie_setup.sh`
 
-Deploys Cowrie 2.9.x as a medium-interaction SSH honeypot, logging all attacker activity.
+Deploys Cowrie 2.9. x as a medium-interaction SSH honeypot, logging all attacker activity.
 
 | Feature | Detail |
 |---|---|
@@ -216,7 +217,7 @@ sudo bash pi5_dashboard_setup.sh
 ### Access the Dashboard
 ```
 http://YOUR-PI-IP:3000
-Default credentials: admin / admin
+Default credentials: admin/admin
 ```
 
 ---
