@@ -8,7 +8,7 @@ A fully automated cybersecurity home lab built on a Raspberry Pi 5 (8GB) running
 
 ## 📸 Dashboard Preview
 
-![Grafana Dashboard](Granfana.png)
+![Grafana Dashboard](Grafana.png)
 
 ---
 
